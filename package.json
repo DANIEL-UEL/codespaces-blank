@@ -9,18 +9,20 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/src/server.js",
-  "dev": "nodemon dist/src/server.js",
-  "build": "tsc -p tsconfig.json",
-  "build:watch": "tsc -w -p tsconfig.json",
-  "dev:start": "nodemon dist/src/server.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
-   
+    "dev": "nodemon dist/src/server.js",
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -w -p tsconfig.json",
+    "dev:start": "nodemon dist/src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Daniel",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.11.26",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8.57.0",
     "nodemon": "^3.1.0",
     "npm-run": "^5.0.1",
     "ts-node": "^10.9.2",
